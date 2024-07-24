@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cala" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Cala" parent="Base.Theme.Cala" />
+    <style name="button2">
+        <item name="android:layout_width">75dp </item>
+        <item name="android:layout_height"> 75dp</item>
+        <item name="android:textStyle"> bold</item>
+        <item name="android:textSize"> 27dp</item>
+        <item name="android:gravity"> center</item>
+        <item name="android:padding"> 10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="background">@drawable/shape1</item>
+    </style>
+</resources>
